@@ -53,6 +53,7 @@ class Company:
         if not flag:
             raise ValueError("Error: project does not exist")
 
+__all__ = ["Company"]
 def main() -> None:
     print("!company run!")
 

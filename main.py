@@ -1,4 +1,5 @@
 from employee_and_project import *
+from company import *
 
 def main() -> None:
     print("!main run!")
